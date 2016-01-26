@@ -1,6 +1,6 @@
 # BootstrapSessionTimeout
 
-TODO: Write a gem description
+A gem for adding [bootstrap-session-timeout(v1.0.3)](https://github.com/orangehill/bootstrap-session-timeout) library to your Rails project.
 
 ## Installation
 
@@ -18,13 +18,15 @@ Or install it yourself as:
 
     $ gem install bootstrap_session_timeout
 
-## Usage
+Then add the following line to your **application.js** file:
 
-TODO: Write usage instructions here
+```javascript
+//= require bootstrap-session-timeout
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/bootstrap_session_timeout/fork )
+1. Fork it ( https://github.com/psparabara/bootstrap_session_timeout/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
